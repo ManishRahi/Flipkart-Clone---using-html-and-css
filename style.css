@@ -153,7 +153,9 @@ header{
 
 .itm-pic img{
     width: 10vw;
-    height: 10vw
+    height: 10vw;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px
 }
 .itm-pic p{
     margin: 0;
