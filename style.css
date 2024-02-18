@@ -1,0 +1,285 @@
+
+*{
+    padding: 0;
+    margin: 0;  
+    letter-spacing: 0.03vw; 
+    font-family: inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif;
+}
+
+/*********************************         nav */
+
+header{
+    background-color: #cbcbcb;
+    height: 4.5vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7vw;
+    width: 90vw;
+}
+
+.logo{
+    height: 3vw;
+    width: 10vw;
+}
+
+.nav-search{
+    width: 34vw;
+    height: 3vw;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0.7vw;
+}
+
+.nav-search input{
+    font-size: 1.2vw;
+    background-color: rgb(238, 238, 238);
+    border: none;
+    width: 28vw;
+}
+
+.nav-login , .nav-cart , .nav-seller , .nav-dot{
+    font-size: 1.2vw;
+}
+
+
+/* Nav-2 */
+
+.nav-2{
+    height: 10vw;
+    margin: 0.7vw 1.2vw;
+    padding-bottom: 0.9vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+
+}
+
+.nav-pic{
+    width: 6vw;
+    height: 5vw;
+    margin: 0px 0px 1vw;
+    background-size: cover;
+}
+
+.nav-2 p{
+    width: 6.4vw;
+    height: 1.5vw;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1vw;
+    margin-bottom: 1.2vw;
+}
+.nav-2-space{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(222, 222, 222);
+}
+
+
+/* slides */
+
+.slides{
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    justify-content: center;
+}
+.slide-back{
+    width: 98vw;
+}
+.slide-back button span{
+    background-color: transparent;
+}
+
+/* best in electronic */
+
+.electro{
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    justify-content: center;
+}
+
+.elec{
+    width: 98vw;
+    background-color: white;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.elec-1{
+    width: 1250px;
+    height: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.elec-1-heading{
+    font-size: 1.3vw;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.3vw;
+
+}
+
+.elec-1-items{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.itm-pic{
+    height: px;
+    border: 0.5px solid rgb(195, 192, 192);
+    border-radius: 5px;
+}
+
+.itm-pic img{
+    width: 10vw;
+    height: 10vw
+}
+.itm-pic p{
+    margin: 0;
+    height: 1.5vw;
+    font-size: 1vw;
+}
+.itm-pic p i{
+    font-size: 1vw;
+}
+
+.ruppee{
+    font-weight: 600;
+}
+
+.elec-2 img{
+    width: 13vw;
+    height:19vw;
+}
+
+
+/* top-deals */
+.top-deals{
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 21vw;
+}
+.deal-for-you{
+    width: 98%;
+    margin-top: 1vw;
+    height: 3.2vw;
+    display: flex;
+    flex-direction: column;
+}
+.rec-heading{
+    font-size: 1.3vw;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.3vw;
+    
+}
+.rec-items{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 0.9vw 1.1vw 0.9vw;
+}
+.recommended{
+    background-color: white;
+}
+
+
+
+/* Block Section */
+
+.block-back{
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.block-board{
+    width: 98vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7vw;
+    padding: 0.7vw;
+}
+
+.block-board img{
+    width: 31.7vw;
+}
+
+/* footer */
+
+footer{
+    background-color: #232222;;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    color: white;
+    font-size: 0.9vw;
+    letter-spacing: 0.1vw;
+    padding : 2.25vw 0px;
+    flex-direction: column;
+    
+}
+
+.foot-1{
+    background-color: #232222;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%
+    
+}
+.foot-1 ul{
+    background-color: #232222;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+
+ .foot-1 ul a{
+    background-color: #232222;
+}
+.foot-1 ul p{
+    background-color: #232222;
+    color: #878787;
+}
+
+.foot-2{
+    background-color: #232222;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot-2 div{
+    background-color: #232222;
+}
+
+.foot-2 i , .foot-2 span{
+    background-color: #232222;
+}
